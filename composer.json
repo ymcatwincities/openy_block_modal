@@ -1,0 +1,13 @@
+{
+    "name": "openy/openy_block_modal",
+    "type": "drupal-module",
+    "description": "Implements a simple block with a body and title that will be used to display modal windows. by OpenY community",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/ymcatwincities/openy_block_modal",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/ymcatwincities/openy_block_modal/issues",
+        "source": "https://github.com/ymcatwincities/openy_block_modal.git"
+    }
+}
