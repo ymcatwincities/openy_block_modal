@@ -3,19 +3,19 @@ status: true
 dependencies:
   config:
     - block_content.type.modal_block
-    - field.storage.block_content.field_modal_header
+    - field.storage.block_content.field_title
   module:
     - datalayer
 third_party_settings:
   datalayer:
     expose: 0
-    label: field_modal_header
-id: block_content.modal_block.field_modal_header
-field_name: field_modal_header
+    label: field_title
+id: block_content.modal_block.field_title
+field_name: field_title
 entity_type: block_content
 bundle: modal_block
-label: 'Modal Header'
-description: 'This field should contain a modal title.'
+label: Title
+description: ''
 required: false
 translatable: false
 default_value: {  }
