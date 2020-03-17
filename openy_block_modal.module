@@ -54,7 +54,6 @@ function openy_block_modal_block_content_view_alter(array &$build, EntityInterfa
           '#type' => 'processed_text',
           '#text' => $entity->field_description->value,
           '#format' => $entity->field_description->format,
-          '#langcode' => $entity->field_description->getLangcode(),
         ],
         '#modal_link' => $linkUrl,
         '#modal_link_title' => $entity->field_link_title->value,
@@ -74,7 +73,6 @@ function openy_block_modal_block_content_view_alter(array &$build, EntityInterfa
           '#type' => 'processed_text',
           '#text' => $modal_content->value,
           '#format' => $modal_content->format,
-          '#langcode' => $modal_content->getLangcode(),
         ];
       }
 
