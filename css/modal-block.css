@@ -84,8 +84,13 @@
   .modal-dialog {
     width: 100% !important;
   }
+
+  .ui-dialog {
+    min-width: 300px !important;
+  }
 }
 
 .ui-dialog {
   z-index: 1500 !important;
+  min-width: 600px;
 }
